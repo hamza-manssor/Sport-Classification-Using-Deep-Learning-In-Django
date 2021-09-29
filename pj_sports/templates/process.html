@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/upload.css' %}">
+</head>
+
+<body>
+    
+    <div class="drag-area">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {% if url == None %}
+            <div class="icon"><i class="fa fa-cloud-upload"></i></div>
+            <header> Upload Image sports</header>
+            <input type="file" name="filePath">
+            <button type="submit">Browse File</button>
+            {% endif %}
+
+
+
+        
+
+        {% if url != None %}
+        <div class="container">
+            <img src="{{url}}" alt="image">
+            <div class="top-right">{{label}}</div>
+        </div>
+        {% endif %}
+
+        
+    </div>
+    <!-- <footer>
+        <div class="copyright">Copyright &copy; 2021 Hamza Manssor</div>
+    </footer> -->
+</body>
+
+
+</html>
