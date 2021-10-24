@@ -1,7 +1,7 @@
 [![Django][django-shield]][django-url]
 [![Numpy][Numpy-shield]][Numpy-url]
 [![Kears][keras-shield]][keras-url]
-[![Tensorflow][Tensorflow-shield]][keras-url]
+[![Tensorflow][Tensorflow-shield]][Tensorflow-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
