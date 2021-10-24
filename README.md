@@ -1,10 +1,11 @@
 # Sport Classification Using Deep Learning In Django
-https://user-images.githubusercontent.com/70811337/135661780-2816fbe8-f67c-4999-a3d6-3cbdad82596d.mp4
+https://user-images.githubusercontent.com/70811337/138574746-08391810-680c-45a3-a1bd-740f298cce3f.mp4
+
 
 ## Description
 This project help to classification 73 different sports. using deep learning and django.
-* Dataset=>https://www.kaggle.com/gpiosenka/sports-classification
-* Train the model=>https://www.kaggle.com/hamzamanssor/sports-classify-94-79-accuracy
+* Dataset => https://www.kaggle.com/gpiosenka/sports-classification
+* Train the model => https://www.kaggle.com/hamzamanssor/sports-classify-mobilenetv2
 
 ## Getting Started
 
