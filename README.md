@@ -1,5 +1,5 @@
 [![Django][django-shield]][django-url]
-[![Numpy][Numpy-shield]][Numpy-url]
+[![kaggle][kaggle-shield]][kaggle-url]
 [![Kears][keras-shield]][keras-url]
 [![Tensorflow][Tensorflow-shield]][Tensorflow-url]
 [![MIT License][license-shield]][license-url]
@@ -59,6 +59,6 @@ See the video above on how to use.
 [keras-shield]:https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white
 [Tensorflow-url]:https://www.tensorflow.org/
 [Tensorflow-shield]:	https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
-[Numpy-url]:https://numpy.org/
-[Numpy-shield]:https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white
+[Kaggle-url]:https://www.kaggle.com/hamzamanssor
+[kaggle-shield]:https://img.shields.io/badge/Kaggle-0095D5?style=for-the-badge&logo=Kaggle&logoColor=white
 
